@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background-color: #0e1116;
+  color: #e6e9ee;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Visible keyboard focus everywhere, instead of the browser default outline */
+:focus-visible {
+  outline: 2px solid #e8a33d;
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #e8a33d;
+  color: #0e1116;
+}
+
+.panel {
+  background-color: #161b22;
+  border: 1px solid #2a313c;
+}
+
+/* Long horizontal / wide content (data tables, code) scrolls in place
+   rather than pushing the page body wider than the viewport. */
+.scroll-x {
+  overflow-x: auto;
+}
