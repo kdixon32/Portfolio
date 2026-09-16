@@ -7,13 +7,11 @@ export default function Hero() {
         <div>
           <p className="font-data text-sm text-cyan">Real-time graphics / simulation engineering</p>
           <h1 className="mt-3 font-display text-4xl font-bold leading-tight text-ink md:text-5xl">
-            I build systems that run in real time and hold up under scrutiny.
+            I build robust, performant, software systems for real-time interactive applications.
           </h1>
           <p className="mt-5 max-w-prose text-base leading-relaxed text-muted">
-            Software engineer moving toward technical art and simulation
-            engineering — real-time rendering, shaders, and physically
-            grounded systems, built with the same rigor as production
-            software.
+            Software engineer with a focus on real-time applications. I have work experience in
+            shaders, asset optimization, and physically grounded systems through realistic simulation.
           </p>
           <div className="mt-8 flex gap-4">
             <a

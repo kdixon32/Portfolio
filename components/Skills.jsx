@@ -1,19 +1,19 @@
 const groups = [
   {
-    label: 'Real-time & rendering',
-    items: ['Unity', 'HLSL', 'Real-time simulation', 'Graphics programming'],
+    label: 'Real-time Tools',
+    items: ['Unity', 'HLSL', 'Audacity', 'Da Vinci Resolve'],
   },
   {
     label: 'Languages',
-    items: ['C#', 'C++', 'Python', 'SQL'],
+    items: ['C#', 'C++', 'Python', 'SQL', 'Lua'],
   },
   {
-    label: '3D & technical art',
-    items: ['Houdini', 'Maya', 'Blender'],
+    label: '3D & Art',
+    items: ['Houdini', 'Autodesk Maya', 'Blender', 'Adobe Substance Painter', 'xNormal'],
   },
   {
-    label: 'Systems & tooling',
-    items: ['Multithreading', 'Linear algebra', 'Diagnostics & telemetry', 'Version control'],
+    label: 'Skills',
+    items: ['Realtime Performance Optimization', 'Systems Design', 'Multithreading', 'Linear Algebra', 'Diagnostics & Telemetry', 'Version Control'],
   },
 ];
 

@@ -5,9 +5,6 @@ export default function About() {
         <h2 className="font-display text-2xl font-medium text-ink">About</h2>
         <div className="mt-5 max-w-prose space-y-4 text-sm leading-relaxed text-muted">
           <p>
-            {/* Replace with your own bio. Keep it specific and factual —
-                what you build, what you're moving toward, and what makes
-                your background unusual — rather than a general summary. */}
             I'm a software engineer working toward real-time simulation and
             technical art roles, building on a background in production
             software and diagnostics. My current focus is real-time
