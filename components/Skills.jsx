@@ -5,7 +5,7 @@ const groups = [
   },
   {
     label: 'Languages',
-    items: ['C#', 'C++', 'Python', 'SQL', 'Lua'],
+    items: ['C#', 'C++', 'Python', 'SQL', 'Lua', 'MATLAB'],
   },
   {
     label: '3D & Art',

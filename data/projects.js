@@ -28,8 +28,8 @@
     readouts: [
       { label: 'Engine', value: 'Unity' },
       { label: 'Genre', value: 'Tactics / RPG' },
-      { label: 'role', value: 'Sole Developer' },
-      { label: 'Status', value: 'In active development' },
+      { label: 'Role', value: 'Sole Developer' },
+      { label: 'Status', value: 'In Active Development' },
     ],
     video: '/projects/strategy-rpg/clip.mp4',
     poster: '/projects/strategy-rpg/poster.jpg',
@@ -63,12 +63,26 @@
     readouts: [
       { label: 'Engine', value: 'Unity'},
       { label: 'Genre', value:  'Adventure / Horror / Puzzle'},
-      { label: 'role', value: 'Technical Artist'},
+      { label: 'Role', value: 'Technical Artist'},
       { label: 'Status', value: 'In Active Development'},
     ],
     video: null,
     poster: '',
     links: []
 
-  }
+  },
+   {
+     slug: 'game-engine',
+     title: 'Fudo Engine',
+     category: 'Game Engine / Graphics API / 3D Development Tools',
+     year: '2026-present',
+     summary:
+     'A physics first game engine written in c++ with the DirectX12 graphics API. Based on the OpenGL Empy Engine from the 3D Game Engine Development book by Franc Pouhela',
+     stack: ['C++', 'DX12'],
+     readouts: [
+       { label: 'Purpose', value: 'Self Education / Physics First Applications'},
+       { label: 'Role', value: 'Sole Developer'},
+       { label: 'Status', value: 'In Active Development'},
+     ]
+   }
 ];
